@@ -1,3 +1,12 @@
-require_relative '../config/environment'
+require_relative "../config/environment"
 
-puts "hello world"
+cli = CommandLineInterface.new
+cli.greet
+cli.create_player
+
+puts "So you think you know ALL the things... Let's see what you've got!"
+
+cli.get_question
+
+Question.books
+1
