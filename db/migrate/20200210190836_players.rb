@@ -4,6 +4,7 @@ class Players < ActiveRecord::Migration[5.2]
       t.string :name
       t.float :score = nil
       t.string :judgment = nil
+      t.integer :clues_available = 3
     end
   end
 end
